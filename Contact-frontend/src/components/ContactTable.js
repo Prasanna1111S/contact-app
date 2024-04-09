@@ -22,6 +22,7 @@ const ContactTable = () => {
     try {
       const response = await axios.get('http://localhost:8080/');
       dispatch(setContacts(response.data.data));
+      setLoading(false);
     } catch (error) {
       console.error('Error:', error);
       setLoading(false);
