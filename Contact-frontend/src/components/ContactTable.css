@@ -1,0 +1,51 @@
+
+.contact-table-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:95%;
+    margin-left: 3%;
+  }
+  
+ 
+  .ant-table {
+    font-size: 16px;
+  }
+  
+ 
+  .ant-table-thead > tr > th {
+    background-color: #f0f2f5;
+    font-weight: bold;
+  }
+  
+
+  .ant-table-tbody > tr:nth-child(even) {
+    background-color: #fafafa;
+  }
+  
+
+  .ant-btn {
+    margin-right: 8px;
+  }
+  
+ 
+  .action-buttons {
+    display: flex;
+    align-items: center;
+  }
+ 
+  .delete-button{
+    color:#fafafa;
+    background-color: red;
+  }
+  .edit-button{
+    color:#fafafa;
+    background-color: blue;
+
+  }
+  .add-contact-button{
+  margin-top: 5%;
+  margin-left: 330%;
+  background-color: #000080;
+  }
